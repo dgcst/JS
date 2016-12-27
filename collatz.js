@@ -1,4 +1,4 @@
-document.querySelector('#btn').addEventListener('click', function() {collatz();});
+btn.addEventListener('click', function() {collatz();});
 var collatz = function() {
   var steps = 0;
   var num = prompt("Please choose your number (higher than 1):");
@@ -11,6 +11,6 @@ var collatz = function() {
         steps++;
         num % 2 == 0 ? num /= 2 : num = num * 3 + 1;
       }
-      document.querySelector('#sandbox').textContent = "The number " + initNum + " originated " + steps + " steps until reaching 1.";
+      sandbox.textContent = "The number " + initNum + " originated " + steps + " steps until reaching 1.";
     }
 }

@@ -1,4 +1,4 @@
-document.querySelector('#btn').addEventListener('click', function() {factorial();});
+btn.addEventListener('click', function() {factorial();});
 var factorial = function() {
   var num = prompt("Please choose your number:");
   if (num < 0 || isNaN(num) || num === null || num === "") {
@@ -13,6 +13,6 @@ var factorial = function() {
       num--
       fact *= num;
     }
-    document.querySelector('#sandbox').textContent = "The factorial of " + num1 + " is " + fact + ".";
+    sandbox.textContent = "The factorial of " + num1 + " is " + fact + ".";
   }
 }
