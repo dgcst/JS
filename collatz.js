@@ -3,7 +3,7 @@ var collatz = function() {
   var steps = 0;
   var num = prompt("Please choose your number (higher than 1):");
   var num1 = num;
-  if (num != null) {
+  if (num != null || num != "") {
     while (num != 1) {
       steps++;
       if (num % 2 == 0) {
