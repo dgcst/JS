@@ -11,6 +11,6 @@ var collatz = function() {
         steps++;
         num % 2 == 0 ? num /= 2 : num = num * 3 + 1;
       }
-      sandbox.textContent = "The number " + initNum + " originated " + steps + " steps until reaching 1.";
+      sandbox.textContent = "> The number " + initNum + " originated " + steps + " steps until reaching 1.";
     }
 }

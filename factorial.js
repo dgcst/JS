@@ -13,6 +13,7 @@ var factorial = function() {
       num--
       fact *= num;
     }
-    sandbox.textContent = "The factorial of " + num1 + " is " + fact + ".";
+    sandbox.style.color = "green";
+    sandbox.textContent = "> The factorial of " + num1 + " is " + fact + ".";
   }
 }
