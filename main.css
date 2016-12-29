@@ -1,0 +1,20 @@
+h1,p {
+	padding-left: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+
+li {
+    font-family: 'Space Mono', monospace;
+}
+
+li a {
+	color: black;
+}
+
+p a {
+	color: black;
+}
+
+ol {
+	margin-left: 10px;
+}
